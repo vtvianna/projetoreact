@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 import Home from './components/pages/Home'
-import NewProject from './components/pages/NewProject'
+
 import Sobre from './components/pages/Sobre'
 import Contact from './components/pages/Contact'
 import Projects from './components/pages/Projects'
@@ -21,7 +21,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/sobre" element={<Sobre />} />
-          <Route path="/newproject" element={<NewProject />} />
+          
         </Routes>
       </Container>
 
